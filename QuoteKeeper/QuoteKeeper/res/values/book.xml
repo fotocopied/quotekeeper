@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="books">
+        <item>Tuesdays With Morrie</item>
+        <item>The First Phone Call from Heaven</item>
+        <item>The Fault in Our Stars</item>
+        <item>Divergent</item>
+        <item>To Kill a Mockingbird</item>
+        <item>Pride and Prejudice</item>
+        <item>Looking for Alaska</item>
+        <item>Dear John</item>
+    </string-array>
+    
+</resources>

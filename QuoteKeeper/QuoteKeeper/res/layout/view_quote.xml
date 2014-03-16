@@ -1,0 +1,113 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#6A3384">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+       <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_below="@+id/imageView4"
+                android:orientation="vertical" >
+
+                <Spinner
+                    android:id="@+id/spinner1"
+                    android:layout_height="50dp"
+                    android:layout_width="150dp"
+                    android:layout_weight="1"
+                    android:background="#d7d7d7"
+                    android:entries="@array/backgrounds"
+                    android:prompt="@string/select_bg" />
+
+                <Spinner
+                    android:id="@+id/spinner2"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:background="#d7d7d7"
+                    android:layout_weight="2"
+                    android:entries="@array/fonts"
+                    android:prompt="@string/select_font" />
+
+            </LinearLayout>
+
+           
+            
+            <LinearLayout
+                android:id="@+id/buttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/spinner"
+                android:orientation="horizontal"
+                android:gravity="center" >
+
+                <Button
+	                android:id="@+id/save"
+	                android:layout_width="100dp"
+	                android:layout_height="50dp"
+	                android:background="@drawable/buttonstate"
+	                android:onClick="saveButton"
+	                android:layout_marginLeft="10dp"
+	                android:text="Save" />
+
+                <Button
+	                android:id="@+id/cancel"
+	                android:layout_width="100dp"
+	                android:layout_height="50dp"
+	                android:background="@drawable/buttonstate"
+	                android:onClick="cancelButton"
+	                android:layout_marginLeft="5dp"
+	                android:layout_marginRight="10dp"
+	                android:text="Cancel"/>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/bg1" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="27dp"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:text="@string/value" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="24dp"
+                android:text="@string/by" />
+
+        </RelativeLayout>
+        
+    </LinearLayout>
+
+</ScrollView>

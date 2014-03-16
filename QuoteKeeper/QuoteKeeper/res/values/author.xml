@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="authors">
+
+	
+	<item>Mitch Albom</item>
+	<item>J.K. Rowling</item>
+	<item>Nicholas Sparks</item>
+	<item>Stephen King</item>
+	<item>Harper Lee</item>
+	<item>Khaled Hosseini</item>
+	<item>John Green</item>
+	<item>Paulo Coelho</item>
+    </string-array>
+</resources>

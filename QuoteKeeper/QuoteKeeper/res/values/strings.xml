@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QuoteKeeper</string>
+    <string name="action_settings">Settings</string>
+	<string name="copy">Copyright © 2013–2014 Quote Keeper</string>
+	<string name="rights">All rights reserved.</string>
+	<string name="go">Go!</string>
+	<string name="author">Famous Authors</string>
+	<string name="book">Books</string>
+	<string name="quote">iQuotes</string>
+	<string name="random">Random</string>
+	
+	<string name="select_bg">Choose Background</string>
+	<string name="select_font">Choose Font Family</string>
+	<string name="value">"You have to start over. That&apos;s what they say. But life is not a board game, and losing a loved one is never really starting over. More like continuing without."</string>
+	<string name="by">-The First Phone Call From Heaven, Mitch Albom</string>
+	
+</resources>

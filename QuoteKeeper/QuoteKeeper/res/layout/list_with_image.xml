@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="horizontal"
+    android:background="@drawable/list_selector">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/mitch_albom" 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginBottom="3dp"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="The Fault in Our Stars"
+        android:textColor="@drawable/text_states"
+        android:paddingTop="5dp"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="10dp"/>
+    
+    
+
+</LinearLayout>
+
